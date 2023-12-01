@@ -1,0 +1,20 @@
+python3 ./dirsearch.py -u link -w db/dicc.txt
+We are not allowed to use GET requests because we got some error, 
+so let’s try to use POST  requests.
+At this moment we can notice some flask errors that are triggered.
+Content-type: application/json
+{
+ "usarname":"admin",
+ "password":"admin"
+}
+Authorization: JWT
+
+
+
+
+
+Looked through it with wireshark.
+
+There was too much data so I filtered by http.
+
+Saw some requests. Looked for POST request. 8541
